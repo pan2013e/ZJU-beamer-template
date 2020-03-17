@@ -1,0 +1,21 @@
+% Please compile with XeLaTeX.
+
+\documentclass[10pt, mathserif]{beamer}	% font and size
+
+\input{format/setbackground.tex}
+\input{format/format.tex}
+\input{command/packages.tex}
+\input{command/others.tex}
+
+\begin{document}
+%\begin{CJK}{UTF8}{song}	
+
+\input{frame/cover.tex} % cover
+\input{frame/toc.tex} % table of contents
+\input{frame/addcover.tex}  % BE CAREFUL
+\input{frame/mainframe.tex} % add your frames here
+\input{frame/bib.tex} % bibliography
+\input{frame/credits.tex} % credits
+
+%\end{CJK}
+\end{document}
