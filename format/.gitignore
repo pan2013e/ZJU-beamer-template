@@ -1,0 +1,8 @@
+# LaTeX
+*.aux
+*.dvi
+*.snm
+*.toc
+*.nav
+*.log
+*.gz
