@@ -1,5 +1,5 @@
 # Beamer Template for Zhejiang Uniersity
-Complied with XeLaTex.
+Compiled with XeLaTeX.
 
 By Zhiyuan Pan.
 
