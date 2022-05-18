@@ -4,6 +4,27 @@
 	%\setbeamertemplate{navigation symbols}{}	% hide navigation bars
 	\setbeamertemplate{caption}[numbered]	% numerate captions
 	\setbeamertemplate{background}{\includegraphics[height=\paperheight]{figure/zjuback.pdf}}	% set background image
-	\setbeamertemplate{footline}{\textcolor{light-gray}{\scriptsize \insertframenumber/\inserttotalframenumber \hskip4.7cm\insertshorttitle} \hfill}%
-
+	\setbeamercolor{lg}{fg=light-gray}
+	\setbeamertemplate{footline}{
+	  \leavevmode%
+	  \hbox{%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=3ex,dp=1ex,left]{lg}%
+			\usebeamerfont{lg}\hskip2ex\insertshortauthor
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=3ex,dp=1ex,center]{lg}%
+			\usebeamerfont{lg}\insertshorttitle
+		\end{beamercolorbox}%
+		\begin{beamercolorbox}[wd=.333333\paperwidth,ht=3ex,dp=1ex,right]{lg}%
+			\usebeamerfont{lg}\insertshortdate{}\hspace*{2em}
+			\insertframenumber{} / \inserttotalframenumber\hspace*{2ex} 
+		\end{beamercolorbox}
+	  }%
+	  \vskip0pt%
+	}
+	\setbeamertemplate{frametitle}{%
+		\nointerlineskip%
+		\begin{beamercolorbox}[wd=\paperwidth,ht=3ex,dp=1ex]{frametitle}
+			\vspace*{-1.5pt}\hspace*{1.5ex}\insertframetitle%
+		\end{beamercolorbox}%
+	}
 }
