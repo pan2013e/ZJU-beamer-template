@@ -15,7 +15,7 @@ Zhiyuan Pan, Zhejiang University
 
 - Customize your title, author name, institute and date in `frame/cover.tex`. The default date is set to `\today`
 - Customize your Table of Contents in `frame/toc.tex`
-- Customize your credits & bibliographt page in `frame/credits.tex, frame/bib.tex`
+- Customize your credits & bibliography page in `frame/credits.tex, frame/bib.tex`
 - To create frames, use
 
 ```tex
