@@ -1,5 +1,9 @@
 # Beamer Template for Zhejiang University
 
+## NEW: Use the template on Overleaf
+
+[https://www.overleaf.com/latex/templates/beamer-template-for-zhejiang-university/tyvhsqvfnpnt](https://www.overleaf.com/latex/templates/beamer-template-for-zhejiang-university/tyvhsqvfnpnt)
+
 ## Changelog
 
 - 2022.5.18 Fix some issues
